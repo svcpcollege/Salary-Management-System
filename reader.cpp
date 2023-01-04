@@ -15,7 +15,7 @@ class salary
     string Notes;                                                               // 11
     string Agency;                                                              // 12
     string Status;                                                              // 13
-    ofstream fin;
+    ifstream fin;
 
 public:
     float getSalaryByID(int ID = 1)
